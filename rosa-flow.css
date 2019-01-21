@@ -1,0 +1,264 @@
+h3 {
+  color: #83a476;
+  text-align: center;
+}
+td {
+  text-align: center;
+  border: 1.5px solid white;
+}
+th {
+  text-algin: center;
+  border: 1.5px solid white;
+}
+iframe {
+  display: block;
+  height: 300;
+  width: 400;
+  margin-left: auto;
+  margin-right: auto;
+}
+.default-text-quiz {
+  color: white;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+label {
+  font-size: 1.7em;
+  color: white;
+}
+input:hover {
+  cursor: pointer;
+}
+label:hover {
+  cursor: pointer;
+}
+.slider-style {
+  display: block;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 60%;
+  height: 30px;
+  background-color: lavender;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider-style::-webkit-slider-thumb {
+  height: 30px;
+  width: 30px;
+  background-color: purple;
+}
+.slider-style::-moz-range-thumb {
+  height: 30px;
+  width: 30px;
+  background-color: purple;
+}
+#title-bar {
+  -webkit-margin: 0px;
+  -webkit-padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: #5c317f;
+}
+body {
+  padding: 0%;
+  margin: 0%;
+}
+#logo {
+  display: inline-block;
+  float: left;
+  height: 70px;
+  width: 70px;
+}
+.banner-value {
+  color: white;
+  font-size: 1.5em;
+  display: inline;
+  margin: 3vw;
+}
+.carosel {
+  display: block;
+  width: 60%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-nice {
+  -webkit-border: none;
+  border: none;
+  background-color: #5c317f;
+  color: white;
+  box-shadow: 0 6px #999;
+}
+.button-nice:hover {
+  background-color: rgb(100,100,225);
+  cursor: pointer;
+}
+.button-nice:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #444;
+}
+#book-button {
+  width: 120px;
+  height: 80px;
+}
+.centerer {
+  height: 80px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.placards_container {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+.placards_main {
+  width: 30%;
+  height: width;
+  border-style: solid;
+  border-color: #7da7c4;
+  display: inline-block;
+}
+.circle_img {
+  display: block;
+  border-radius: 25px;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.learn_more_main {
+  display: block;
+  height: 50px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.online_quiz {
+  background-color: #66b3ff;
+  width: 100%;
+  height: 300px;
+}
+#quiz_button {
+  -webkit-border: none;
+  border: none;
+  display: block;
+  position: realtive;
+  font-size: 0.75em;
+  color: white;
+  background-color: #b3d9ff;
+  width: 225px;
+  height: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#quiz_button:hover {
+  background-color: #4da6ff;
+  cursor: pointer;
+}
+.quiz_buttons {
+  -webkit-border: none;
+  border: none;
+  display: block;
+  font-size: 0.75em;
+  color: white;
+  background-color: #b3d9ff;
+  width: 150px;
+  height: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.quiz_buttons:hover {
+  background-color: #4da6ff;
+  cursor: pointer;
+}
+#check_box_quiz_house {
+  height: 250px;
+  width: 35%;
+}
+#check_button_continue {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  left: 100%;
+  bottom: 50%;
+}
+.big_quiz_buttons {
+  -webkit-border: none;
+  border: none;
+  display: inline;
+  font-size: 2em;
+  color: white;
+  background-color: #66b3ff;
+  width: 50%;
+  height: 250px;
+}
+.big_quiz_buttons:hover {
+  background-color: #4da6ff;
+  cursor: pointer;
+}
+#gift_card_button {
+  height: 75px;
+  width: 150px;
+  font-size: 1.5em;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news-title-text {
+  text-align: center;
+}
+.news-text-standard {
+  text-align:center;
+  color: grey;
+}
+#masterNews {
+  display: block;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.art_container {
+  display: inline-block;
+  height: auto;
+  width: 26.66%;
+  padding: 2.5%;
+  background-color: lavender;
+}
+.art_container:hover {
+  background-color: #b19cd9;
+}
+.newsImages {
+  height: 180px;
+  width: 100%;
+}
+#homepage_footer {
+  height: 350px;
+  width: 100%;
+  background-color: #778899;
+}
+#contact_footer {
+  display: inline-block;
+  height: 300px;
+  width: 25%;
+  margin-left: 5%;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+}
+#quick_links {
+  display: inline-block;
+  float: right;
+}
+.footer-text-header {
+  color: white;
+  font-size: 1.25em;
+}
