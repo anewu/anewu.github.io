@@ -285,10 +285,10 @@ body {
   text-align: center;
   border: none;
   background-color: lavender;
-  color: #fafafe;
-  height: 100px;
-  width: 50px;
-  border-radius: 0.5px;
+  color: #afafb1;
+  height: 50px;
+  width: 100px;
+  border-radius: 2px;
   margin-left: auto;
   margin-right: auto;
 }
