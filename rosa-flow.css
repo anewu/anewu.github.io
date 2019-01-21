@@ -281,6 +281,11 @@ body {
 .facial_title_text {
 	text-align: center;
 	color: #595959;
+	cursor: pointer;
+}
+.facial_text {
+	text-align: center;
+	color: #595959;
 }
 .facial_buttons {
   display: block;
