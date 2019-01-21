@@ -2,6 +2,9 @@ h3 {
   color: #83a476;
   text-align: center;
 }
+a {
+  color: white;
+}
 td {
   text-align: center;
   border: 1.5px solid white;
@@ -40,7 +43,7 @@ label:hover {
   -webkit-appearance: none;
   width: 60%;
   height: 30px;
-  background-color: lavender;
+  background-color: #66b3ff;
   margin-left: auto;
   margin-right: auto;
 }
@@ -50,6 +53,11 @@ label:hover {
   background-color: purple;
 }
 .slider-style::-moz-range-thumb {
+  height: 30px;
+  width: 30px;
+  background-color: purple;
+}
+.slider-style::-ms-thumb {
   height: 30px;
   width: 30px;
   background-color: purple;
@@ -261,4 +269,27 @@ body {
 .footer-text-header {
   color: white;
   font-size: 1.25em;
+}
+#mini_facial {
+	background-color: #9bb5bf;
+	width: 100%;
+	height: 200px;
+}
+.facial_title_text {
+	text-align: center;
+	color: grey;
+}
+.facial_buttons {
+  -webkit-border: none;
+  text-align: center;
+  border: none;
+  background-color: lavender;
+  color: #fafafe;
+}
+.facial_buttons: hover {
+	cursor: pointer;
+	background-color: #cfcfe1;
+}
+.facial_buttons: focus {
+	background-color: #b8b8c8;
 }
