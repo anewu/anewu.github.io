@@ -36,10 +36,14 @@ input:hover {
 label:hover {
   cursor: pointer;
 }
+ul {
+	list-style: none;
+}
 li::before {
 	content: "◆";
 	color: purple;
 	display: inline-block;
+	margin-left: -1em
 }
 .slider-style {
   display: block;
