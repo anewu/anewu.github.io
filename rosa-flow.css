@@ -278,6 +278,14 @@ body {
 #mini_facial_more {
 	display: none;
 }
+#silver_facial {
+	background-color: #cccccc;
+	width: 100%;
+	height: auto;
+}
+#silver_facial_more {
+	display: none;
+}
 .facial_title_text {
 	text-align: center;
 	color: #595959;
