@@ -271,25 +271,31 @@ body {
   font-size: 1.25em;
 }
 #mini_facial {
-	background-color: #9bb5bf;
+	background-color: #8ba2ab;
 	width: 100%;
-	height: 200px;
+	height: 250px;
 }
 .facial_title_text {
 	text-align: center;
 	color: grey;
 }
 .facial_buttons {
+  display: block;
   -webkit-border: none;
   text-align: center;
   border: none;
   background-color: lavender;
   color: #fafafe;
+  height: 100px;
+  width: 50px;
+  border-radius: 0.5px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.facial_buttons: hover {
+.facial_buttons:hover {
 	cursor: pointer;
 	background-color: #cfcfe1;
 }
-.facial_buttons: focus {
+.facial_buttons:focus {
 	background-color: #b8b8c8;
 }
