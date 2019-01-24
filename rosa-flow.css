@@ -319,6 +319,8 @@ body {
 	cursor: pointer;
 }
 .facial_text {
+	padding-left: 10px;
+	padding-right: 10px;
 	text-align: center;
 	color: #595959;
 }
