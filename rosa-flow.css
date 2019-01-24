@@ -44,6 +44,7 @@ li::before {
 	color: purple;
 	display: inline-block;
 	margin-left: -1em;
+	margin-right: 0.5em;
 	width: 1em;
 }
 .slider-style {
