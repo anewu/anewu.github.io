@@ -296,6 +296,14 @@ body {
 #silver_facial_more {
 	display: none;
 }
+#gold_facial {
+	background-color: #ccac00;
+	width: 100%;
+	height: auto;
+}
+#gold_facial_more {
+	display: none;
+}
 .facial_title_text {
 	text-align: center;
 	color: #595959;
