@@ -344,3 +344,7 @@ body {
 .facial_buttons:focus {
 	background-color: #b8b8c8;
 }
+.facial_buttons_container {
+	height: 50px;
+	width: 100px;
+}
