@@ -345,6 +345,9 @@ body {
 	background-color: #b8b8c8;
 }
 .facial_buttons_container {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 	height: 50px;
 	width: 100px;
 }
