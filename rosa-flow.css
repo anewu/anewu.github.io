@@ -354,7 +354,7 @@ body {
 .ref_house {
 	background-color: #e6e6fa;
 	width: 100%;
-	height: 350px;
+	height: auto;
 }
 .more_cross_links {
 	color: grey;
