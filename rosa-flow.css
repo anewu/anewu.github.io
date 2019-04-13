@@ -370,3 +370,23 @@ body {
 .div_advT {
 	padding-left: 20px;
 }
+.advT_buttons {
+  display: inline;
+  -webkit-border: none;
+  text-align: center;
+  border: none;
+  background-color: #ecb346;
+  color: #afafb1;
+  height: 50px;
+  width: 100px;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.advT_buttons:hover {
+	cursor: pointer;
+	background-color: #cf972a;
+}
+.advT_buttons:focus {
+	background-color: #b98827;
+}
