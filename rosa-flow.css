@@ -362,3 +362,8 @@ body {
 .more_cross {
 	text-align: center;
 }
+#ePowerFace {
+	width: 100%;
+	height: auto;
+	background-color: #8AACB8;
+}
