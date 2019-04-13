@@ -390,3 +390,10 @@ body {
 .advT_buttons:focus {
 	background-color: #b98827;
 }
+.advT_buttons_container {
+	display: block;
+	width: 200px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
