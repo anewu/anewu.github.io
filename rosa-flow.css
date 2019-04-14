@@ -396,3 +396,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+.epower_buy_div {
+	display: none;
+}
