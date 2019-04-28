@@ -1,0 +1,44 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+li {
+	font-size: 1.5em;
+}
+p {
+	font-size: 1.5em;
+}
+h2 {
+	margin-left: 15px;
+	color: #8e74f7;
+}
+.prices {
+	font-size: 1.5em;
+}
+#container_logo {
+	display: block;
+	width: 100%;
+	height: 525px;
+	background-color: lavender;
+}
+#main_logo {
+	display: block;
+	transform: rotate(-45deg);
+	width: 33%;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#main {
+	margin-left: 3em;
+}
+#price_table {
+	display: block;
+	width: auto;
+	height: atuo;
+	background-color: #ccbfff;
+	border-radius: 10px;
+}
+#facebook_badge:hover {
+	cursor: pointer;
+}
