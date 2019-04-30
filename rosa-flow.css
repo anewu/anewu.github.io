@@ -362,13 +362,16 @@ body {
 .more_cross {
 	text-align: center;
 }
-#ePowerFace {
+/*#ePowerFace {
 	width: 100%;
 	height: auto;
 	background-color: #8AACB8;
-}
+}*/
 .div_advT {
 	padding-left: 20px;
+	width: 100%;
+	height: auto;
+	background-color: #8AACB8;
 }
 .advT_buttons {
   display: inline;
