@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<style>
+			#nav_logo {
+				display: block;
+				height: 75px;
+				width: 75px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+    <div class="nav-wrapper purple">
+      <a href="#!" class="brand-logo"><img id="nav_logo" src="anewu_small_logo.png" /></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Packages</a></li>
+        <li><a href="#">Gift Cards</a></li>
+		<li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Packages</a></li>
+    <li><a href="#">Gift Cards</a></li>
+	<li><a href="#">Contact</a></li>
+  </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.sidenav');
+			var instances = M.Sidenav.init(elems);
+		});
+	</script>
+	<script>
+		function check_mobile() {
+			if(screen.width <= 500) {
+				document.getElementById("nav_logo").marginLeft = "auto";
+				document.getElementById("nav_logo").marginRight = "auto";
+			}
+		}
+		check_mobile();
+	</script>
+	</body>
+</html>
