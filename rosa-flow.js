@@ -1,9 +1,7 @@
 function showHide(elementID) {
-	var currentStat = document.getElementById(elementID).style.display;
-	
-	if (currentStat == "block") {
+	if (document.getElementById(elementID).style.display == "block") {
 		document.getElementById(elementID).style.display = "none";
-	} else if (currentStat == "none") {
+	} else if (document.getElementById(elementID).style.display == "none") {
 		document.getElementById(elementID).style.display = "block";
 	}
 }
