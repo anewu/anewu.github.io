@@ -411,6 +411,9 @@ body {
 #victoria_buy_div {
 	display: none;
 }
+#back_buy_div {
+	display: none;
+}
 #nav_logo {
 	display: block;
 	height: 75px;
