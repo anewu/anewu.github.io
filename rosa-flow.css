@@ -411,3 +411,11 @@ body {
 #victoria_buy_div {
 	display: none;
 }
+#nav_logo {
+	display: block;
+	height: 75px;
+	width: 75px;
+}
+#scroll_nav {
+	position: fixed;
+}
