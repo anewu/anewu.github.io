@@ -403,7 +403,7 @@ body {
 	display: list-item;
 }
 .stillHere::before {
-	content: auto;
+	content: none;
 }
 #epower_buy_div {
 	display: none;
