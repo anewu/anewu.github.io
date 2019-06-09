@@ -402,6 +402,9 @@ body {
 .stillHere {
 	display: list-item;
 }
+.stillHere::before {
+	content: auto;
+}
 #epower_buy_div {
 	display: none;
 }
