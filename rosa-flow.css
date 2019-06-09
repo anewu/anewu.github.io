@@ -399,6 +399,9 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+.stillHere {
+	content: default;
+}
 #epower_buy_div {
 	display: none;
 }
