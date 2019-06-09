@@ -400,7 +400,7 @@ body {
 	margin-right: auto;
 }
 .stillHere {
-	content: default;
+	display: list-item;
 }
 #epower_buy_div {
 	display: none;
