@@ -405,6 +405,13 @@ body {
 .stillHere::before {
 	content: none;
 }
+.TT_buttons_container {
+	display: block;
+	width: 200px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
 #epower_buy_div {
 	display: none;
 }
