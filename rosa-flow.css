@@ -427,6 +427,9 @@ body {
 #back_buy_div {
 	display:none;
 }
+#eyeT_buy_div {
+	display: none;
+}
 #nav_logo {
 	display: block;
 	height: 75px;
